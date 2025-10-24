@@ -1,16 +1,17 @@
-# Gestão de Resíduos
+# ♻️ Gestão de Resíduos
 
-> Projeto de API para gestão de resíduos, desenvolvido em C# (.NET 8), utilizando banco de dados Oracle e containerização via Docker.
+> Projeto de API para gestão de resíduos, desenvolvido em **C# (.NET 8)**, utilizando banco de dados **Oracle** e **containerização via Docker**.
 
 ---
 
-## 🏗 Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 
 ```text
 API-GESTAO-RESIDUO-C/
 │
 ├─ .github/workflows/          # Pipeline CI/CD (GitHub Actions)
 │   └─ testes.yml
+│
 ├─ GestaoResiduo/              # Código-fonte da API
 │   ├─ Controllers/
 │   ├─ Data/
@@ -26,17 +27,19 @@ API-GESTAO-RESIDUO-C/
 │   ├─ GestaoResiduo.csproj.user
 │   ├─ GestaoResiduo.http
 │   └─ Program.cs
+│
 ├─ Tests/
 │   ├─ ApiTests/
 │   ├─ Features/
 │   └─ JsonSchemas/
+│
 ├─ GestaoResiduo.sln
 └─ README.md
 ```
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 | Camada           | Tecnologia / Framework        |
 | ---------------- | ----------------------------- |
@@ -62,7 +65,7 @@ cd gestao-residuos
 
 ### 2️⃣ Configurar variáveis de ambiente
 
-Crie o arquivo `.env` na raiz com os dados do Oracle:
+Crie um arquivo `.env` na raiz do projeto com os dados do Oracle:
 
 ```env
 ORACLE_USER=seu_usuario
@@ -77,7 +80,7 @@ ORACLE_PORT=1521
 docker-compose up -d
 ```
 
-🖼️ **Inserir print da execução do Docker aqui**
+🖼️ *Insira aqui o print da execução do Docker.*
 
 ### 4️⃣ Restaurar pacotes e build da API
 
@@ -89,11 +92,11 @@ dotnet build
 ### 5️⃣ Executar a API
 
 ```bash
-cd src/GestaoResiduos.Api
+cd GestaoResiduo
 dotnet run
 ```
 
-> API estará disponível em: `http://localhost:5163`
+> A API estará disponível em: **http://localhost:5163**
 
 ---
 
@@ -102,14 +105,14 @@ dotnet run
 ### Testes Unitários
 
 ```bash
-cd tests/GestaoResiduos.Tests
+cd Tests/ApiTests
 dotnet test
 ```
 
 ### Testes BDD (SpecFlow)
 
 ```bash
-cd tests/GestaoResiduos.BDD
+cd Tests/Features
 dotnet test
 ```
 
@@ -117,7 +120,7 @@ dotnet test
 
 1. Abra o **Postman** e importe a collection `GestaoResiduos.postman_collection.json`.
 2. Configure a variável de ambiente `{{baseUrl}}` para `http://localhost:5163`.
-3. Execute todos os requests.
+3. Execute os requests.
 
 ---
 
@@ -131,8 +134,8 @@ docker-compose up --build -d
 
 ## 📚 Referências
 
-* [Documentação .NET 8](https://learn.microsoft.com/dotnet/)
-* [Entity Framework Core](https://learn.microsoft.com/ef/core/)
-* [Oracle Database Docker Image](https://hub.docker.com/_/oracle-database-enterprise-edition)
-* [SpecFlow](https://specflow.org/)
-* [Postman](https://www.postman.com/)
+- [Documentação .NET 8](https://learn.microsoft.com/dotnet/)
+- [Entity Framework Core](https://learn.microsoft.com/ef/core/)
+- [Oracle Database Docker Image](https://hub.docker.com/_/oracle-database-enterprise-edition)
+- [SpecFlow](https://specflow.org/)
+- [Postman](https://www.postman.com/)
