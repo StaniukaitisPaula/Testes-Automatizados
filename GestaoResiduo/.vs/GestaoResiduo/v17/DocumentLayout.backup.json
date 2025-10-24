@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Faculdade\\GestaoResiduo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBEB58D-EBCC-4329-841D-6A15B959B1B2}|..\\GestaoResiduoTest\\GestaoResiduoTest.csproj|c:\\faculdade\\gestaoresiduotest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\controllers\\residuoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:controllers\\residuoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\services\\residuoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:services\\residuoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\services\\iresiduoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:services\\iresiduoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\repositories\\residuorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:repositories\\residuorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\repositories\\iresiduorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:repositories\\iresiduorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\models\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:models\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|c:\\faculdade\\gestaoresiduo\\viewmodels\\residuoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941C358F-50F3-480E-B223-C1991E3C5BDE}|GestaoResiduo.csproj|solutionrelative:viewmodels\\residuoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResiduoService.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\Services\\ResiduoService.cs",
+              "RelativeDocumentMoniker": "Services\\ResiduoService.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\Services\\ResiduoService.cs",
+              "RelativeToolTip": "Services\\ResiduoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:36:14.399Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IResiduoService.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\Services\\IResiduoService.cs",
+              "RelativeDocumentMoniker": "Services\\IResiduoService.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\Services\\IResiduoService.cs",
+              "RelativeToolTip": "Services\\IResiduoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T21:53:17.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IResiduoRepository.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\Repositories\\IResiduoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IResiduoRepository.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\Repositories\\IResiduoRepository.cs",
+              "RelativeToolTip": "Repositories\\IResiduoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T21:46:54.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduoTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\GestaoResiduoTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduoTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\GestaoResiduoTest\\UnitTest1.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T19:14:46.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResiduoRepository.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\Repositories\\ResiduoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ResiduoRepository.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\Repositories\\ResiduoRepository.cs",
+              "RelativeToolTip": "Repositories\\ResiduoRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:44:58.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResiduosController.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\Controllers\\ResiduosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResiduosController.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\Controllers\\ResiduosController.cs",
+              "RelativeToolTip": "Controllers\\ResiduosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:38:35.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResiduoViewModel.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\ViewModels\\ResiduoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ResiduoViewModel.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\ViewModels\\ResiduoViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ResiduoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:56:07.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Residuo.cs",
+              "DocumentMoniker": "C:\\Faculdade\\GestaoResiduo\\Models\\Residuo.cs",
+              "RelativeDocumentMoniker": "Models\\Residuo.cs",
+              "ToolTip": "C:\\Faculdade\\GestaoResiduo\\Models\\Residuo.cs",
+              "RelativeToolTip": "Models\\Residuo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:33:56.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

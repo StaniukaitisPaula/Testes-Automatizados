@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoResiduo", "GestaoResiduo.csproj", "{941C358F-50F3-480E-B223-C1991E3C5BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoResiduoTest", "..\GestaoResiduoTest\GestaoResiduoTest.csproj", "{9CBEB58D-EBCC-4329-841D-6A15B959B1B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{941C358F-50F3-480E-B223-C1991E3C5BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941C358F-50F3-480E-B223-C1991E3C5BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941C358F-50F3-480E-B223-C1991E3C5BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941C358F-50F3-480E-B223-C1991E3C5BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBEB58D-EBCC-4329-841D-6A15B959B1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBEB58D-EBCC-4329-841D-6A15B959B1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBEB58D-EBCC-4329-841D-6A15B959B1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBEB58D-EBCC-4329-841D-6A15B959B1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0E11129-119F-422A-99CA-2E12128B3588}
+	EndGlobalSection
+EndGlobal

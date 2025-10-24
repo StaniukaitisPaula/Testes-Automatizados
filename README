@@ -1,0 +1,138 @@
+# Gestão de Resíduos
+
+> Projeto de API para gestão de resíduos, desenvolvido em C# (.NET 8), utilizando banco de dados Oracle e containerização via Docker.
+
+---
+
+## 🏗 Estrutura do Projeto
+
+```text
+API-GESTAO-RESIDUO-C/
+│
+├─ .github/workflows/          # Pipeline CI/CD (GitHub Actions)
+│   └─ testes.yml
+├─ GestaoResiduo/              # Código-fonte da API
+│   ├─ Controllers/
+│   ├─ Data/
+│   ├─ DTOs/
+│   ├─ Models/
+│   ├─ Properties/
+│   ├─ Repositories/
+│   ├─ Services/
+│   ├─ ViewModels/
+│   ├─ appsettings.Development.json
+│   ├─ appsettings.json
+│   ├─ GestaoResiduo.csproj
+│   ├─ GestaoResiduo.csproj.user
+│   ├─ GestaoResiduo.http
+│   └─ Program.cs
+├─ Tests/
+│   ├─ ApiTests/
+│   ├─ Features/
+│   └─ JsonSchemas/
+├─ GestaoResiduo.sln
+└─ README.md
+```
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+| Camada           | Tecnologia / Framework        |
+| ---------------- | ----------------------------- |
+| Backend          | C# (.NET 8)                   |
+| Banco de Dados   | Oracle 21c                    |
+| ORM              | Entity Framework Core         |
+| Containerização  | Docker / Docker Compose       |
+| Testes Unitários | xUnit / NUnit                 |
+| Testes BDD       | SpecFlow                      |
+| Testes de API    | Postman                       |
+| CI/CD            | GitHub Actions / Azure DevOps |
+
+---
+
+## ⚙️ Configuração e Execução da API
+
+### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/seu-usuario/gestao-residuos.git
+cd gestao-residuos
+```
+
+### 2️⃣ Configurar variáveis de ambiente
+
+Crie o arquivo `.env` na raiz com os dados do Oracle:
+
+```env
+ORACLE_USER=seu_usuario
+ORACLE_PASSWORD=sua_senha
+ORACLE_HOST=localhost
+ORACLE_PORT=1521
+```
+
+### 3️⃣ Rodar o banco Oracle via Docker
+
+```bash
+docker-compose up -d
+```
+
+🖼️ **Inserir print da execução do Docker aqui**
+
+### 4️⃣ Restaurar pacotes e build da API
+
+```bash
+dotnet restore
+dotnet build
+```
+
+### 5️⃣ Executar a API
+
+```bash
+cd src/GestaoResiduos.Api
+dotnet run
+```
+
+> API estará disponível em: `http://localhost:5163`
+
+---
+
+## 🧪 Execução de Testes
+
+### Testes Unitários
+
+```bash
+cd tests/GestaoResiduos.Tests
+dotnet test
+```
+
+### Testes BDD (SpecFlow)
+
+```bash
+cd tests/GestaoResiduos.BDD
+dotnet test
+```
+
+### Testes de API (Postman)
+
+1. Abra o **Postman** e importe a collection `GestaoResiduos.postman_collection.json`.
+2. Configure a variável de ambiente `{{baseUrl}}` para `http://localhost:5163`.
+3. Execute todos os requests.
+
+---
+
+## 🚀 Deploy com Docker
+
+```bash
+docker-compose up --build -d
+```
+
+---
+
+## 📚 Referências
+
+* [Documentação .NET 8](https://learn.microsoft.com/dotnet/)
+* [Entity Framework Core](https://learn.microsoft.com/ef/core/)
+* [Oracle Database Docker Image](https://hub.docker.com/_/oracle-database-enterprise-edition)
+* [SpecFlow](https://specflow.org/)
+* [Postman](https://www.postman.com/)

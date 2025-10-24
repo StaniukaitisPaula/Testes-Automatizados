@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "idResiduo": { "type": "integer" },
+    "nome": { "type": "string" },
+    "tipo": { "type": "string" }
+  },
+  "required": ["idResiduo", "nome", "tipo"]
+}
